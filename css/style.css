@@ -1,0 +1,404 @@
+/* selector: etiqueta html, class , id */
+/* propiedad: valor    color:red */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap');
+
+/* siempre se tiene qeu hacer esto en cada presentación, con el selector universal, se logra con * y regular margin y padding en 0 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    background-color: black;
+    margin: auto;
+    padding:20px;
+    
+}
+
+body{
+    background-color: rgb(250, 252, 252);
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* esto saca las viñetas de las listas */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.firemusic{
+    margin:80px 40px 80px 40px;
+    padding: 30px;
+    border: 20px solid black;
+    text-align:center;
+    font-size: 50px;
+}
+.subtitulo{
+    text-align: center;
+    letter-spacing: 5px;
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.galeria{
+    margin:80px 200px 80px 300px;
+    
+}
+.nuestras{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+.logos{
+    margin:80px 200px 80px 287px;
+    padding:20px 50px 20px 50px;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+p{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    text-transform: capitalize;
+    color: black;
+
+}
+
+.propaganda{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+.propaganda_{
+    margin-left: 20px;
+}
+
+/* aqui esta el footer y todo lo que contiene */
+
+footer{
+    padding: 10px;
+    margin-top: 100px;
+    background-color: rgba(173, 113, 45, 0.486);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.redes{
+    font-family:'Poppins', sans-serif;
+    color: black;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin-top: 5px;
+    margin-bottom: auto;
+
+}
+
+.facebook{
+    text-align: left;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.instagram{
+    text-align: left;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+.twitter{
+    height: 65px;
+    width: 65px;
+    align-items: center;
+}
+.twitter_letra{
+    text-align: left;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.whatsapp{
+    text-align: left;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* pertenece al html de nosotros */
+.acerca{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    text-transform: capitalize;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+/* perteneciente al html contacto */
+.contacto{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align:left;
+    line-height: 10px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    text-transform: capitalize;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    
+}
+
+.name{
+    margin: 20px 20px 20px 20px;
+}
+
+.name_{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 2px groove black;
+    height: 20px;
+    width: 500px;
+}
+
+.correo{
+    margin: 20px 20px 20px 20px;
+}
+.correo_{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 2px groove black;
+    height: 20px;
+    width: 500px;
+}
+
+.telefono{
+    margin: 20px 20px 20px 20px;
+}
+.telefono_{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 2px groove black;
+    height: 20px;
+    width: 500px;
+}
+.ayudarte{
+    margin: 20px 20px 20px 20px;
+}
+.ayudarte_{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 2px groove black;
+    height: 300px;
+    width: 700px;
+}
+
+/* perteneciente al html Historia */
+.nuestra{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    text-transform: capitalize;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.tienda{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    text-transform: capitalize;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.tienda_{
+    margin-left: 600px;
+}
+
+/* pertenece al html producto */
+.conoce{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    text-transform: capitalize;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.guitarras{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20;
+    
+
+}
+.guitarras_{
+    height: 400px;
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.bajos{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20;
+}
+
+.bajos_{
+    height: 400px;
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.baterias{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20;
+}
+
+.baterias_{
+    height: 400px;
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.pianos{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20;
+}
+
+.pianos_{
+    height: 400px;
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.vientos{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20;
+}
+
+.vientos_{
+    height: 400px;
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.microfonos{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20;
+}
+
+.microfonos_{
+    height: 400px;
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.accesorios{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20;
+}
+
+.accesorios_{
+    height: 400px;
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
